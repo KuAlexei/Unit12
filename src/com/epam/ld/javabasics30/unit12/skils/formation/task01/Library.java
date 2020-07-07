@@ -8,6 +8,7 @@ import java.util.List;
 
 public class Library {
     private List<Book> books = new ArrayList<>(); // В условии список, возможно уместнее было бы использовать Set
+    // Да, в условии список, т.к. для начинающих проце все начать с ArrayList, а сеты в голову сразу не влазят)))
 
     public Library() {
     }
